@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "types": ["jest"],
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "target": "es2016",
+      "module": "commonjs",
+      "skipLibCheck": true
+    },
+    "exclude": [
+      "**/**_broken.ts",
+      "node_modules"
+    ]
+}
+  
